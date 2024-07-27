@@ -13,7 +13,9 @@ export default function HomePage() {
       <LoanCalculator />
       <Logos />
       <FeaturCard />
-      <TestimonialCard />
+      <div className="bg-white flex items-center justify-center w-full">
+        <TestimonialCard />
+      </div>
     </div>
   );
 }
